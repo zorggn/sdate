@@ -1,4 +1,4 @@
-local ddate = require "ddate.ddate"
+local sdate = require "sdate.sdate"
 
-print(ddate.date("%C"))
-print(ddate.date("%a %A %b %B %d %e %E %w %W %y %Y"))
+print(sdate.date("%C"))
+print(sdate.date("%a %A %b %B %d %w %W %y %Y"))

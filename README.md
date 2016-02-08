@@ -1,11 +1,11 @@
-# ddate
+# sdate
 
-A lua ddate implementation.
+A lua eternal september calendar implementation.
 
 ### Usage
 
 ```lua
-ddate.date(formatString, time)
+sdate.date(formatString, time)
 ```
 
 ### Supported specifiers
@@ -17,8 +17,6 @@ ddate.date(formatString, time)
 * `%c` Default date and time format
 * `%C` More appropriate date and time format :3
 * `%d` The day of the season
-* `%e` Like `%a`, but it gives back holyday names on the 5th and 50th days
-* `%E` Like `%A`, but it gives back holyday names on the 5th and 50th days
 * `%H` Hours, 0-23
 * `%I` Hours, 1-12
 * `%m` The season of the year
@@ -36,7 +34,6 @@ ddate.date(formatString, time)
 ### Features
 
 * 200x slower than os.date!
-* Supports the 30th of february!
 
 ### Features missing
 
